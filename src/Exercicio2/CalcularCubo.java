@@ -12,7 +12,7 @@ public class CalcularCubo {
 		System.out.println("Digite outro número inteiro");
 		intervalorFinal = scn.nextInt();
 		for(int i=intervaloInicial; i <= intervalorFinal; i++) {
-			System.out.println("Cubo de "+i+":"+i*i*i);
+			System.out.println("Cubo de "+i+":"+(i*i*i));
 		}
 		
 	}

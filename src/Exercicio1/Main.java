@@ -3,6 +3,7 @@ package Exercicio1;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		Produto produto1 = new Produto();
 		produto1.setNome("Banana");
 		produto1.setValor(0.99);
@@ -34,6 +35,7 @@ public class Main {
 		produto6.setTipo(2);
 
 		Caixa caixa = new Caixa();
+		
 		double valorFinalP1 = caixa.calculaValorFinal(produto1, 3);
 		double valorFinalP2 = caixa.calculaValorFinal(produto2, 7);
 		double valorFinalP3 = caixa.calculaValorFinal(produto3, 1);
